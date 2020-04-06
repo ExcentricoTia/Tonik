@@ -1,0 +1,344 @@
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h3 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    color: #0356DD;
+    overflow-x: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    color: #0356DD;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0356DD;
+}
+
+a:active {
+    color: #0356DD;
+}
+
+a:visited {
+    color: #0356DD;
+}
+
+img {
+    width: 100%;
+}
+
+.logo a img {
+    width: auto;
+}
+
+.logo {
+    padding-top: 13px
+}
+
+.tonik-main .logo {
+    margin: 0px 0 120px;
+    align: left;
+}
+
+.tonik-main h1,
+.tonik-main h3 {
+    font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.tonik-main-section-title {
+	padding: 90px 0 150px;
+    text-align: left;
+}
+
+.tonik-main h1 {
+    font-size: 70px;
+    font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.tonik-main h3 {
+	line-height: 45px;
+	padding: 25px 0px 25px;
+}
+
+.tonik-main-footer-title {
+	padding: 200px 0 75px;
+    text-align: left;
+}
+
+.tonik-main-cta-title {
+	padding: 100px 0 75px;
+    text-align: left;
+}
+
+.hero-img1 {
+    height: 425px !important;
+}
+
+.tonik-hero-link {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+.tonik-hero-inner-table {
+    color: #0356DD;
+    display: table;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    visibility: visible;
+    width: 100%;
+}
+
+.single-tonik-hero:hover .tonik-hero-inner-table {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.tonik-hero-inner-table:before {
+    background: #fff none repeat scroll 0 0;
+    border: 11px solid #0356DD;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.0s ease 0s;
+    transition: all 0.0s ease 0s;
+    width: 100%;
+    z-index: 3;
+}
+
+.single-tonik-hero:hover .tonik-hero-inner-table:before {
+    opacity: 0.96;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=96)";
+	border-radius: 25px;
+}
+
+.tonik-hero-inner-tablecell {
+    bottom: 0;
+    font-weight: 300;
+    padding: 27px 35px;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    z-index: 3;
+}
+
+.tonik-hero-inner-tablecell h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+	letter-spacing: 3px;
+    margin-bottom: 5px;
+    color: #0356DD;
+    font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.tonik-hero-inner-tablecell p {
+    font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+	letter-spacing: 1.5px;
+	margin: 0;
+}
+
+.single-tonik-hero {
+    position: relative;
+    z-index: 999;
+	background-position: center center;
+    background-size: cover;
+	border-radius: 25px;
+
+}
+
+.single-tonik-hero-wrap.col-md-4 {
+    padding: 5px;
+}
+
+.single-widget h3 {
+    color: #0356DD;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 22px;
+    position: relative;
+}
+
+.single-widget a {
+    color: #555555;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    line-height: 17px;
+	position: relative;
+    -webkit-transition: all 4s ease 0s;
+    -webkit-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.single-widget h3:after {
+    background: #e2e7eb none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.single-widget a:after {
+    background: #288feb none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    visibility: hidden;
+    width: 0;
+}
+
+.single-widget a:hover:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    visibility: visible;
+    width: 100%;
+}
+
+.single-widget a:hover {
+    color: #288feb;
+}
+
+.single-widget.single-top-widget h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.tonik-main .single-widget h3 {
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+.tonik-main .single-widget h3:after {
+    background: transparent none repeat scroll 0 0;
+}
+
+.footer-area {
+    position: relative;
+}
+
+.footer-widget-area {
+    padding: 55px 0 50px;
+}
+
+.footer-bottom {
+    background: #fff none repeat scroll 0 0;
+}
+
+.footer-social-icon {
+    text-align: right;
+}
+
+.footer-social-icon a {
+    color: #555555;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+}
+
+.footer-social-icon a:hover {
+    color: #288feb;
+}
+
+
+.tonik-main .footer-area {
+    text-align: left;
+    background: #fff;
+	padding-bottom: 50px;
+}
+
+.footer-social-icon.tonik-main-footer-social-icon li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.footer-social-icon.tonik-main-footer-social-icon {
+    text-align: left;
+	padding: 35px 0 25px 0;
+}
+
+.footer-social-icon.tonik-main-footer-social-icon a {
+    border: 3px solid #0356DD;
+    border-radius: 15%;
+    color: #0356DD;
+    font-size: 20px;
+    height: 65px;
+    line-height: 65px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 65px;
+}
+
+.footer-social-icon.tonik-main-footer-social-icon a:hover {
+    border: 2px solid #0356DD;
+	background: #0356DD;
+    color: #fff;
+}
+
+.footer-social-icon.tonik-main-footer-social-icon a:after {
+    background: transparent none repeat scroll 0 0;
+}
+
+.tonik-main .footer-bottom {
+    background: #fff none repeat scroll 0 0;
+    padding: 25px 0;
+}
+
+.tonik-main .footer-bottom p {
+	font-size: 24px;
+	color: #0356DD;  
+}
